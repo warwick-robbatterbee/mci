@@ -4,15 +4,72 @@
       <title>hello world</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+
+        <style>
+        .impact-font{
+          font-family: 'Anton', sans-serif;
+          font-size: 24pt;
+        }
+        .jumbotron {
+  background-image: url("dawn-environment-fog-3455221.jpg");
+  background-size: cover;
+  color: antiquewhite;
+}
+        footer{
+          background-color: lightgrey;
+        }
+        </style>
+      </head>
     <body>
-      <div class="container-fluid">
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand impact-font" href="#">Brandname</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Fluid jumbotron</h1>
+                  <p class="lead">This is a callout for the main article, to bring attention to it.</p>
+                </div>
+              </div>
         <div class='row'>
-          Row 1
+            <div class="col">
+               <h1>Heading of an article</h1>
+               <p>Main content of article</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet mattis vulputate enim nulla aliquet porttitor. Mattis enim ut tellus elementum sagittis vitae et. Elementum nibh tellus molestie nunc non. In ornare quam viverra orci sagittis eu. Egestas erat imperdiet sed euismod. Elementum integer enim neque volutpat ac tincidunt. Aliquet nec ullamcorper sit amet. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Curabitur gravida arcu ac tortor. Proin nibh nisl condimentum id venenatis a. Semper quis lectus nulla at volutpat diam ut venenatis. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut.</p>
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
         </div>
         <div class='row'>
-          Row 2
+          <div class="col">
+            Full width?
+          </div>
         </div>
+        <footer class="">
+         <h6>Company address</h6>
+         <p>1, Acacia Crescent<br>
+          Coventry
+        </p>
+        </footer>
       </div>
     </body>
 </html>
